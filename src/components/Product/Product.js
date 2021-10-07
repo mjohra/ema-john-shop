@@ -28,7 +28,7 @@ const Product = (props) => {
         readonly></Rating>
         <br />
         <br />
-        <button onClick={()=>props.handleAddToCart(props.product) } className="purchase-btn">{element} Add to cart</button>
+        <button onClick={()=>props.handleAddToCart(props.product) } className="btn-regular">{element} Add to cart</button>
       </div>
     </div>
   );
